@@ -1,5 +1,8 @@
 
-for dir in */     # list directories in the form "/tmp/dirname/"
+# this script will convert all docx to readme using pandoc
+# it will also remove unnecessary doc, tmp, and rec.ck (for recording) files
+
+for dir in */ 
 do
 
     cd ${dir}
