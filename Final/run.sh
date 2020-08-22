@@ -1,0 +1,1 @@
+python -u osc_serve.py | python osc_notes.py
